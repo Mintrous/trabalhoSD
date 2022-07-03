@@ -5,13 +5,11 @@ import org.apache.thrift.protocol.TBinaryProtocol;
 import org.apache.thrift.protocol.TProtocol;
 import java.util.Scanner;
 import java.util.UUID;
-public class Cliente {
+public class PortalAdministrador {
   public static void main(String [] args) {
     try{
       Scanner scan = new Scanner(System.in);
       int opcao;
-
-
 
       do {
         System.out.println("\n(1) Inserir cliente");
@@ -76,7 +74,7 @@ public class Cliente {
             ChaveValor.Client cliente2 = new ChaveValor.Client(protocol);
 
             if(cliente2.recuperarCliente(id3)){
-              System.out.println("\nCliente de ID" + id3 + "foi recuperado.");
+              System.out.println("\nCliente de ID" + id3 + " foi recuperado.");
             }
             else
               System.out.println("\nFalha ao recuperar cliente.");
