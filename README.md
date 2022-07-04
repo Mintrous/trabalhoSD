@@ -1,4 +1,4 @@
-# trabalhoSD
+# Trabalho de Sistemas Distribuídos
 
 Ambiente: Windows 10
 
