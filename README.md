@@ -14,3 +14,5 @@ Foi estabelecida a conexão com o servidor e os 2 portais (Administrador e clien
 Os serviços que implementam os casos de uso (métodos) foram criados e aparentam estar funcionando bem.
 
 Ainda não consegui implementar a parte de pub-sub do MQTT.
+
+Observação: O portal do cliente que implementa os casos de uso de tarefas, pede pelo ID no início e o ID permanece unico durante a execução. Então para trocar o ID, deve-se executar outra vez e informá-lo.
