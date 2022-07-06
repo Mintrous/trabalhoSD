@@ -10,7 +10,7 @@ public class Server {
 
   public static void main(String [] args) {
     try {
-      ClienteHandler handler = new ClienteHandler();
+      Handler handler = new Handler();
       ChaveValor.Processor processor = new ChaveValor.Processor(handler);
 
       TServerTransport serverTransport = new TServerSocket(9090);
